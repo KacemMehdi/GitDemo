@@ -17,6 +17,7 @@ public class StepsDefinition {
 		{
 		    // Write code here that turns the phrase above into concrete actions
 			System.out.println("Test coding in given bloc");
+			System.out.println("Test coding in given bloc, code from Git push");
 		}
 
 
@@ -26,6 +27,7 @@ public class StepsDefinition {
 		{
 		    // Write code here that turns the phrase above into concrete actions
 			System.out.println("Test coding in when bloc "+string+" "+string2);
+			System.out.println("Test coding in given bloc, code from Git push");
 
 		}
 		@Then("Home page is populated")
@@ -33,6 +35,7 @@ public class StepsDefinition {
 		{
 		    // Write code here that turns the phrase above into concrete actions
 			System.out.println("Test coding in then bloc");
+			System.out.println("Test coding in given bloc, code from Git push");
 
 		}
 		@And("Cards are displayed {string}")
@@ -40,6 +43,7 @@ public class StepsDefinition {
 		{
 		    // Write code here that turns the phrase above into concrete actions
 			System.out.println("Test coding in AND bloc wherer "+display);
+			System.out.println("Test coding in given bloc, code from Git push");
 
 		}
 		
